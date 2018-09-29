@@ -1,0 +1,44 @@
+.all {
+    transition: stroke 2s, fill 2s !important;
+}
+
+.lightbulb {
+	/* transition: stroke 100ms, fill 1600ms; */
+	transition: stroke 100ms, fill 100ms;
+	fill: #c0edfb;
+	stroke: #67ccf5;
+}
+
+.all:hover .lightbulb {
+	fill: #f4fbc0;
+	stroke: #f5e867;
+}
+
+.filament {
+	transition: stroke 100ms;
+	stroke: #1a5aff;
+}
+
+.all:hover .filament {
+	stroke: #ffac1a;
+}
+
+.screw {
+	transition: stroke 80ms, fill 80ms;
+	fill: #54bde6;
+	stroke: #54bde6;
+}
+
+.all:hover .screw {
+	fill: #e6a454;
+	stroke: #e6a454;
+}
+
+.photons {
+	transition: fill 200ms;
+	fill: #7ed7fb;
+}
+
+.all:hover + .photons {
+	fill: #fbec7e;
+}
