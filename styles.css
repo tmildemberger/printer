@@ -146,6 +146,7 @@ ul {
 
 figure {
     margin: 0;
+    transform: translateY(2px);
 }
 
 img {
@@ -153,11 +154,22 @@ img {
 }
 
 .eng {
+    /* width: calc(70px + 8%);
+    height: calc(70px + 8%); */
+    width: 90px;
+    height: 90px;
     transition: transform 2s;
 }
 
 .eng:hover {
     transform: rotate(-120deg);
+}
+
+.lamp {
+    /* width: calc(60px + 7%);
+    height: calc(60px + 7%); */
+    width: 90px;
+    height: 90px;
 }
 
 .sidebar {
@@ -174,4 +186,9 @@ img {
     .sidebar {
         display: none;
     }
+}
+
+.facebook {
+    width: 32px;
+    height: 32px;
 }
