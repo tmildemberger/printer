@@ -172,6 +172,13 @@ img {
     height: 90px;
 }
 
+.icone2 {
+    /* width: calc(60px + 7%);
+    height: calc(60px + 7%); */
+    width: 90px;
+    height: 90px;
+}
+
 .sidebar {
     position: fixed;
     left: 0px;
